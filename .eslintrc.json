@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/eslintrc.json",
+  "extends": ["airbnb-base", "plugin:mocha/recommended", "plugin:import/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "plugins": [
+    "chai-friendly",
+    "import",
+    "mocha",
+    "no-only-tests",
+    "simple-import-sort"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "ignorePatterns": ["dist/"],
+  "rules": {
+    "comma-dangle": "off",
+    "linebreak-style": "off",
+    "max-len": "off",
+    "no-unused-expressions": "off",
+    "chai-friendly/no-unused-expressions": "error",
+    "import/no-commonjs": "error",
+    "import/no-import-module-exports": "error",
+    "no-only-tests/no-only-tests": "error",
+    "mocha/no-mocha-arrows": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
+}

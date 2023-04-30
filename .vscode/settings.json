@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.wordWrap": "off",
+    "files.exclude": {
+      "node_modules/": true
+    },
+    "workbench.colorCustomizations": {
+      "editorInfo.foreground": "#268ad220"
+    }
+}
