@@ -1,6 +1,6 @@
 {
   "name": "unit-test-sentinel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a sentinel object that can contain and return arbitrary unique properties for unit tests.",
   "license": "MIT",
   "repository": {
@@ -8,6 +8,17 @@
     "url": "https://github.com/scottmcginness/unit-test-sentinel.git"
   },
   "author": "Scott McGinness",
+  "keywords": [
+    "test",
+    "testing",
+    "unit",
+    "unittest",
+    "sentinel",
+    "proxy",
+    "random",
+    "mock",
+    "fake"
+  ],
   "main": "dist/index.js",
   "files": [
     "LICENSE.txt",
